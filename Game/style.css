@@ -1,0 +1,37 @@
+@font-face {
+    font-family: lpd;
+    src: url("lurple's delight monospace.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:lpd;
+}
+body {
+    overflow: hidden;
+    user-select: none;
+    background-color: black;
+}
+p{
+    position: relative;
+    transform: translateY(4px);
+    left: 50%;
+    top: 50%;
+    width: 836.5px;
+    height: 366px;
+    transform: translate(calc(-836.5px / 2), calc(-366px / 2));
+    font-size:15px;
+    line-height:15px; 
+}
+div:not(#inv){
+    transform: translate(-50%, 46.5px);
+    color: gainsboro;
+}
+div{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 30px);
+    color: white;
+    letter-spacing: 1px;
+} 
